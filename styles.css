@@ -1,4 +1,7 @@
 * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
@@ -6,16 +9,22 @@ body {
   color: #fafaf9;
   text-transform: uppercase;
   font-family: "Sono", sans-serif;
+  padding: 48px;
+}
+
+.header {
+  margin-bottom: 40px;
 }
 
 .fact-form {
   background-color: #44483c;
+  margin-bottom: 40px;
+  padding: 16px 40px;
 }
 
 h1 {
   font-size: 42px;
   text-transform: uppercase;
-  text-align: center;
   font-family: "Coiny", sans-serif;
 }
 
@@ -24,6 +33,8 @@ h1 {
   line-height: 1.4;
   color: #fafaf9;
   background-color: #44483c;
+  margin-bottom: 16px;
+  padding: 16px 24px;
 }
 
 .tag {
